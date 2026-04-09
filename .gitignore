@@ -1,0 +1,32 @@
+# Dependencies & Build-Output
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Environment Variables (NEEDED / VITAL!)
+# The Storyblok API token is stored in the .env file, which is ignored by Git to prevent accidental exposure of sensitive information. This ensures that the API token remains secure and is not shared publicly.
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor & System-Dateien
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# Netlify (Hosting)
+.netlify/
